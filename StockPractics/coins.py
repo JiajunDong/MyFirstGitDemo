@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 TIMES = 50  # 赌博总数50次
 BASE_MONEY = 100  # 本金100元
 
-
 def test(p):  # p是赌资占资产的比例，在0-1之间
     money = BASE_MONEY  # 当前资产
     for i in range(1, TIMES):
